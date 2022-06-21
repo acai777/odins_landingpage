@@ -3,13 +3,14 @@
 }
 
 /*************************** 
-First secion (Header) 
+First section (Header) 
 ***************************/
 .headercontainer {
     display:flex;
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
+    padding:1rem 1rem 0rem 1rem;
 }
 
 ul {
@@ -33,9 +34,35 @@ ul li a, a:hover, a:visited, a:active {
     color: #f9faf8;
 }
 
+/*************************** 
+Second section 
+("This website is awesome") 
+***************************/
+.maintext {
+    font-size: 48px;
+    font-weight: 800; /* extra bold = 800*/
+    color: #f9faf8;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+
+.secondcontainer {
+    background-color: #1f2937;
+    color: #efe7eb;
+    padding: 0rem 3rem 3rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px; /*makes button more circular on the corners*/
+}
 
 /*************************** 
-Third secion (on dog photos) 
+Third section (on dog photos) 
 ***************************/
 .photos img {
     /* max-width: 100%;
