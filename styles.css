@@ -134,7 +134,7 @@ Fifth section (More dog photos link)
     border-color: white;
 }
 
-h3, .fifthsection p {
+.fifthsection h3, .fifthsection p {
     margin: 0;
     font-size: 18px;
     color: #f9faf8;
