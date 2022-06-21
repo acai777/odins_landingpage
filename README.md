@@ -1,1 +1,1 @@
-# odins_landingpage
+This directory contains my files for The Odin's Project's landing page exercise. 

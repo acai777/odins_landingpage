@@ -1,0 +1,25 @@
+.photos img {
+    /* max-width: 100%;
+    height: auto; */
+    width:100%;
+    height:50%;
+    object-fit:cover;
+}
+
+.photos {
+    /* max-height: 250px; cannot specify this max-height, or else the images will overlap with the elements outside of the div with the "photos" class*/ 
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width:100%; 
+    gap: 10px;
+}
+
+.center, .photos div p {
+    text-align: center;
+}
+
+
+/* * {
+    border-style: dotted;
+} */
