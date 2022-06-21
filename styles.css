@@ -1,8 +1,15 @@
+/*************************** 
+First secion (Header) 
+***************************/
+
+/*************************** 
+Third secion (on dog photos) 
+***************************/
 .photos img {
     /* max-width: 100%;
     height: auto; */
     width:100%;
-    height:50%;
+    height:80%;
     object-fit:cover;
 }
 
