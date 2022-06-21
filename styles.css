@@ -2,6 +2,9 @@
     font-family: fantasy, 'Roboto';
 }
 
+body {
+    margin:0;
+}
 /*************************** 
 First section (Header) 
 ***************************/
@@ -44,21 +47,32 @@ Second section
     color: #f9faf8;
     margin-bottom: 0;
     padding-bottom:0;
+    line-height: 50px; /*accounts for spacing within the h1 text when it pours onto a new line*/
 }
 
 .secondcontainer {
     background-color: #1f2937;
     color: #efe7eb;
-    padding: 0rem 3rem 3rem 3rem;
+    padding: 2rem 3rem 3rem 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    gap:3rem;
+
     
 }
 .signup {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 10px; /*makes button more circular on the corners*/
+}
+
+.mainphoto { /*redundant with code below, but still nonetheless include for separation of CSS styles by section*/
+    width:30%;
+    height:30%;
+    object-fit:cover;
 }
 
 /*************************** 
@@ -78,14 +92,17 @@ Third section (on dog photos)
     flex-shrink: 1;
     flex-grow: 1;
     width:100%; 
-    gap: 10px;
+    gap: 1rem;
 }
 
 .center, .photos div p {
     text-align: center;
 }
 
-
+/*************************** 
+Fourth section 
+***************************/
 /* * {
     border-style: dotted;
 } */
+.fourthsection
