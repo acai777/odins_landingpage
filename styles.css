@@ -60,8 +60,6 @@ Second section
     flex-shrink: 1;
     flex-grow: 1;
     gap:3rem;
-
-    
 }
 .signup {
     background-color: #3882f6;
@@ -93,6 +91,7 @@ Third section (on dog photos)
     flex-grow: 1;
     width:100%; 
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .center, .photos div p {
@@ -100,9 +99,50 @@ Third section (on dog photos)
 }
 
 /*************************** 
-Fourth section 
+Fourth section (quote)
 ***************************/
+.fourthsection {
+    padding: 7rem 5rem;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+.fourthsection p {
+    width:100%;
+}
+.author {
+    text-align:center;
+}
+
+/*************************** 
+Fifth section (More dog photos link)
+***************************/
+.fifthsection {
+    background-color: #3882f6;
+    padding:1rem 3rem;
+    margin: 4rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.moredogphotos {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px; /*makes button more circular on the corners*/
+    border-color: white;
+}
+
+h3, .fifthsection p {
+    margin: 0;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.fifthsection form {
+    padding-left: 2rem;
+}
 /* * {
     border-style: dotted;
 } */
-.fourthsection
